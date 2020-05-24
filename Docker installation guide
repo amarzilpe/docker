@@ -26,6 +26,9 @@ $ sudo systemctl start docker
 
 $ sudo docker run hello-world
 
-#Docker autocomplete:
+#Docker autocomplete Centos:
 For give suggetion of docekr command.
+
+#yum -y install bash-completion
+#sudo curl -L https://raw.githubusercontent.com/docker/machine/v0.16.0/contrib/completion/bash/docker-machine.bash -o /etc/bash_completion.d/docker-machine
 
